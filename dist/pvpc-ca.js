@@ -133,8 +133,8 @@ class PVPCHourlyPricingCard extends LitElement {
   }
 
   static async getConfigElement() {
-    await import('./pvpc-hourly-pricing-card-editor.js');
-    return document.createElement('pvpc-hourly-pricing-card-editor');
+    await import('./pvpc-ca-editor.js');
+    return document.createElement('pvpc-ca-editor');
   }
 
   static getStubConfig(hass, entities, entitiesFallback) {
@@ -737,4 +737,4 @@ class PVPCHourlyPricingCard extends LitElement {
   }
 }
 
-customElements.define('pvpc-hourly-pricing-card', PVPCHourlyPricingCard);
+customElements.define('pvpc-ca', PVPCHourlyPricingCard);
