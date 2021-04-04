@@ -26,11 +26,20 @@ const locale = {
     maxPrice: 'Highest price today:',
     minPriceNextDay: 'Lowest price tomorrow:',
     maxPriceNextDay: 'Highest price tomorrow:',
-    infoNoNextDay: "Tomorrow's data is not yet available",
+    infoNoNextDay: "Tomorrow's dataaaaa is not yet available",
     from: 'from',
     to: 'to'
   },
   es: {
+    minPrice: 'Precio mínimo hoy:',
+    maxPrice: 'Precio máximo hoy:',
+    minPriceNextDay: 'Precio mínimo mañana:',
+    maxPriceNextDay: 'Precio máximo mañana:',
+    infoNoNextDay: 'Los datos de mañana no están disponibles aún',
+    from: 'de',
+    to: 'a'
+  },
+  ca: {
     minPrice: 'Precio mínimo hoy:',
     maxPrice: 'Precio máximo hoy:',
     minPriceNextDay: 'Precio mínimo mañana:',

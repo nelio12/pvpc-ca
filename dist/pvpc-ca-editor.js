@@ -44,6 +44,14 @@ const locale = {
     optionShowGraph: 'Mostrar Gráfico',
     optionShowInfo: 'Mostrar Información'
   },
+  ca: {
+    optionName: 'Nombre (Opcional)',
+    optionEntity: 'Entidad (Necesario)',
+    optionShowCurrent: 'Mostrar Estado Actual',
+    optionShowDetails: 'Mostrar Detalles',
+    optionShowGraph: 'Mostrar Gráfico',
+    optionShowInfo: 'Mostrar Información'
+  },
   fr: {
     optionName: 'Nom (Facultatif)',
     optionEntity: 'Entity (Required)',
