@@ -28,14 +28,6 @@ const locale = {
     optionShowGraph: 'Grafik anzeigen',
     optionShowInfo: 'Informationen anzeigen'
   },
-  en: {
-    optionName: 'Name (Optional)',
-    optionEntity: 'Entity (Required)',
-    optionShowCurrent: 'Show Current State',
-    optionShowDetails: 'Show Details',
-    optionShowGraph: 'Show Graph',
-    optionShowInfo: 'Show Info'
-  },
   es: {
     optionName: 'Nombre (Opcional)',
     optionEntity: 'Entidad (Necesario)',
