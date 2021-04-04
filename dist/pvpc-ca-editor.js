@@ -28,6 +28,14 @@ const locale = {
     optionShowGraph: 'Grafik anzeigen',
     optionShowInfo: 'Informationen anzeigen'
   },
+  en: {
+    optionName: 'Name (Optional)',
+    optionEntity: 'Entity (Required)',
+    optionShowCurrent: 'Show Current State',
+    optionShowDetails: 'Show Details',
+    optionShowGraph: 'Show Graph',
+    optionShowInfo: 'Show Info'
+  },
   es: {
     optionName: 'Nombre (Opcional)',
     optionEntity: 'Entidad (Necesario)',
@@ -37,12 +45,12 @@ const locale = {
     optionShowInfo: 'Mostrar Información'
   },
   ca: {
-    optionName: 'Nombre (Opcional)',
-    optionEntity: 'Entidad (Necesario)',
-    optionShowCurrent: 'Mostrar Estado Actual',
-    optionShowDetails: 'Mostrar Detalles',
-    optionShowGraph: 'Mostrar Gráfico',
-    optionShowInfo: 'Mostrar Información'
+    optionName: 'Nom (Opcional)',
+    optionEntity: 'Entitat (Necessari)',
+    optionShowCurrent: 'Mostrar Estat Actual',
+    optionShowDetails: 'Mostrar Detalls',
+    optionShowGraph: 'Mostrar Gràfic',
+    optionShowInfo: 'Mostrar Informació'
   },
   fr: {
     optionName: 'Nom (Facultatif)',
