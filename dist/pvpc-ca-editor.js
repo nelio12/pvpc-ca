@@ -239,7 +239,7 @@ export class PVPCHourlyPricingCardEditor extends LitElement {
   }
 }
 
-customElements.define('pvpc-ca-editor', PVPCHourlyPricingCardEditor);
+customElements.define('pvpc-hourly-pricing-card-ca-editor', PVPCHourlyPricingCardEditor);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
