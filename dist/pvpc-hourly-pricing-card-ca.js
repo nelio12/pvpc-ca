@@ -64,14 +64,6 @@ const locale = {
     optionShowGraph: 'Mostrar Gráfico',
     optionShowInfo: 'Mostrar Información'
   },
-  ca: {
-    optionName: 'Nom (Opcional)',
-    optionEntity: 'Entitat (Necessari)',
-    optionShowCurrent: 'Mostrar Estat Actual',
-    optionShowDetails: 'Mostrar Detalls',
-    optionShowGraph: 'Mostrar Gràfic',
-    optionShowInfo: 'Mostrar Informació'
-  },
   fr: {
     minPrice: "Prix minimum aujourd'hui:",
     maxPrice: "Prix maximum aujourd'hui:",
@@ -716,7 +708,7 @@ class PVPCHourlyPricingCard extends LitElement {
   }
 }
 
-customElements.define('pvpc-hourly-pricing-card-ca', PVPCHourlyPricingCard);
+customElements.define('pvpc-hourly-pricing-card', PVPCHourlyPricingCard);
 
 export class PVPCHourlyPricingCardEditor extends LitElement {
   setConfig(config) {
@@ -871,7 +863,7 @@ customElements.define('pvpc-hourly-pricing-card-editor', PVPCHourlyPricingCardEd
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: 'pvpc-hourly-pricing-card-ca',
+  type: 'pvpc-hourly-pricing-card',
   name: 'PVPC Hourly Pricing',
   preview: true,
   description: 'The PVPC Hourly Pricing card allows you to display propertly the PVPC Hourly Pricing entity.'
