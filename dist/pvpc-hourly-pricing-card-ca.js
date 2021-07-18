@@ -716,7 +716,7 @@ class PVPCHourlyPricingCard extends LitElement {
   }
 }
 
-customElements.define('pvpc-hourly-pricing-card', PVPCHourlyPricingCard);
+customElements.define('pvpc-hourly-pricing-card-ca', PVPCHourlyPricingCard);
 
 export class PVPCHourlyPricingCardEditor extends LitElement {
   setConfig(config) {
@@ -871,7 +871,7 @@ customElements.define('pvpc-hourly-pricing-card-editor', PVPCHourlyPricingCardEd
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: 'pvpc-hourly-pricing-card',
+  type: 'pvpc-hourly-pricing-card-ca',
   name: 'PVPC Hourly Pricing',
   preview: true,
   description: 'The PVPC Hourly Pricing card allows you to display propertly the PVPC Hourly Pricing entity.'
